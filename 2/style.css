@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    color: royalblue;
+    font-size: 2em;
+    margin: 0 0 20px;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    height: 420px;
+    box-shadow: -1px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#continue{
+    display: none;
+}
+
+p {
+    margin: 15px 0 10px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.password__block {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px;
+}
+
+.password__block p {
+    margin: 0;
+}
+
+.password__block a {
+    font-size: 0.7em;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(14, 116, 212);
+}
+
+.mail {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 168, 185);
+    outline-color: rgb(0, 190, 253);
+}
+
+.password {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 168, 185);
+    outline-color: rgb(0, 190, 253);
+}
+
+.checkbox__block {
+    position: relative;
+    margin-top: 15px;
+}
+
+#checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox__label {
+    font-size: 0.7em;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.box__border {
+    position: absolute;
+    top: 5px;
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgb(118, 168, 185);
+    border-radius: 20%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
+}
+
+.box__border.active {
+    background-color: rgb(14, 116, 212);
+}
+
+.box__border::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    top: 8px;
+    left: 1px;
+    background-color: white;
+    transform: rotate(55deg);
+    border-radius: 15%;
+}
+
+.box__border::after {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 2px;
+    top: 6px;
+    left: 4px;
+    background-color: white;
+    transform: rotate(-55deg);
+    border-radius: 15%;
+}
+
+.btn__continue {
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px 0;
+    height: 35px;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: rgb(14, 116, 212);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.sign__on {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 0.7em;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(14, 116, 212);
+}
+
+.sign_up {
+    text-decoration: none;
+    color: rgb(14, 116, 212);
+}

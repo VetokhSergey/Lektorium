@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.wrapper .cube:nth-child(2) {
+    align-self: flex-start;
+    position: absolute;
+    top:250px;
+}
+
+.wrapper .cube:nth-child(3) {
+    align-self: flex-end;
+    position: absolute;
+    top:250px;
+}
+
+.cube {
+    display: inline-flex;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+    list-style: none;
+}
+
+.dots::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.cube_one {
+    justify-content: center;
+    align-items: center;
+}
+
+.cube_two {
+    justify-content: space-between;
+}
+
+.cube_two .dots:nth-child(2){
+    align-self: flex-end;
+}
+
+.cube_three {
+    justify-content: space-between;
+}
+
+.cube_three .dots:nth-child(2) {
+    align-self: center;
+}
+
+.cube_three .dots:nth-child(3) {
+    align-self: flex-end;
+}
+
+.cube_four {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cube_four .dots {
+    width: 50%;
+}
+
+.cube_four .dots:nth-child(even) {
+    text-align: end;
+}
+
+.cube_five {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cube_five .dots:nth-child(3){
+    text-align: center;
+    width: 100%;
+}
+
+.cube_six{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
