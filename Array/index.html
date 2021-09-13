@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Matrix</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <h1 class="title">Get Spiral Matrix</h1>
+      <form class="form">
+         <input class="columns" type="number" placeholder="Columns" required>
+         <input class="rows" type="number" placeholder="Rows " required>
+         <input class="startColumn" type="number" placeholder="Start column" required>
+         <input class="startRow" type="number" placeholder="Start row" required>
+
+         <select class="direction">
+            <option selected disabled>Direction</option>
+            <option value="left">left</option>
+            <option value="up">up</option>
+            <option value="right">right</option>
+            <option value="down">down</option>
+         </select>
+
+         <button class="btn submit" type="submit">Create array</button>
+      </form>
+
+      <div class="array"></div>
+      <div class="result"></div>
+
+   </div>
+   <script src="script.js" defer></script>
+</body>
+
+</html>

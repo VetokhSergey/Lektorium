@@ -1,0 +1,81 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 1200px;
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 0 auto;
+}
+
+.title {
+   margin: 20px 0;
+}
+
+.form {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding: 15px;
+   border-radius: 5px;
+   border: 1px solid rgba(156, 156, 156, 0.575);
+}
+
+.form input {
+   padding: 10px 10px;
+   margin: 0 10px;
+   width: 100%;
+   border: 1px solid rgba(156, 156, 156, 0.575);
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.direction {
+   border: 1px solid rgba(156, 156, 156, 0.575);
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.btn {
+   background-color: rgba(156, 156, 156, 0.575);
+   padding: 5px 20px;
+   margin: 0 15px 0 10px;
+   text-align: center;
+   font-size: 16px;
+   color: #000;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+.result {
+   margin: 10px 0;
+   padding: 20px;
+}
+
+.array {
+   margin: 50px 0;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+}
+
+.element {
+   display: inline;
+   padding: 10px;
+   width: 50px;
+   height: 40px;
+   text-align: center;
+   border: 1px solid black;
+}
