@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.area {
+    width: 1200px;
+    background-color: rgb(88, 166, 172);
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.wrap {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.wrap::before {
+    content: "\2927";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(87, 142, 243);
+    border: 1px solid black;
+    cursor: move;
+    text-align: center;
+}
+
+.remove {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+}
+
+.remove::after {
+    content: "\2716";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(187, 15, 15);
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrap .active {
+    display: none;
+}
