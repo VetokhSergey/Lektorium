@@ -147,7 +147,6 @@ form.addEventListener('submit', e => {
          }
          matrix.appendChild(div)
       }
-      
    };
 
    showArray(col, row);
