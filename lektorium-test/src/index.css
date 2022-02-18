@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Cinzel&family=Economica&family=Josefin+Slab:wght@100;200;300;400&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@400;700&family=Dosis:wght@200;600&family=Indie+Flower&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Quicksand:wght@300;500&family=Rajdhani&family=Yellowtail&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Dosis', sans-serif;
+  font-style: italic;
+}
+
+p{
+  font-family: 'Courgette', cursive;
+}
+
+span{
+  font-family: 'Yellowtail', cursive;
+}
+
+label{
+  font-family: 'Yellowtail', cursive;
+  font-size: 22px;
+}
+
+button, a{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+input, textarea{
+  font-family: 'Courgette', cursive;
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
